@@ -1,17 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
-import customers_1 from "/public/img/customers-1.png";
-import customers_2 from "/public/img/customers-2.png";
-import customers_3 from "/public/img/customers-3.png";
-import customers_4 from "/public/img/customers-4.png";
-import customers_5 from "/public/img/customers-5.png";
-import customers_6 from "/public/img/customers-6.png";
-import customers_7 from "/public/img/customers-7.png";
+import customers_1 from "/public/img/small_banner_(1).jpeg";
+import customers_2 from "/public/img/small_banner_(2).jpeg";
+import customers_3 from "/public/img/small_banner_(3).jpeg";
+import customers_4 from "/public/img/small_banner_(4).jpeg";
+import customers_5 from "/public/img/small_banner_(5).jpeg";
+import customers_6 from "/public/img/small_banner_(6).jpeg";
+import customers_7 from "/public/img/small_banner_(7).jpeg";
 import customers_bg from "/public/img/customers-bg.png";
 import flag from "/public/img/flag.png";
 import left_quote from "/public/img/left-quote.png";
-import testimonials_1 from "/public/img/testimonials-1.png";
+import testimonials_1 from "/public/img/small_banner_(8).jpeg";
 
 const Customers = () => {
   const settings = {
@@ -89,7 +89,7 @@ const Customers = () => {
               <div className="col-lg-7 col-sm-8">
                 <div className="section-header">
                   <h2 className="title">
-                    Over <span>245m+</span> User Trust Paylio
+                    Over <span>245m+</span> PhD Students
                   </h2>
                 </div>
               </div>
@@ -119,9 +119,8 @@ const Customers = () => {
                                 ))}
                               </div>
                               <p>
-                                The greatest and number 1 services for transfer
-                                money online. I can send money easily and
-                                trusted services.
+                                The #1 Service for PhD Support. Easily access
+                                trusted, expert guidance for your PhD journey.
                               </p>
                               <Link href="#">Ella Stewart</Link>
                               <div className="country">
@@ -154,9 +153,9 @@ const Customers = () => {
                                 ))}
                               </div>
                               <p>
-                                The greatest and number 1 services for transfer
-                                money online. I can send money easily and
-                                trusted services.
+                                The Best PhD Support Service.Receive expert,
+                                reliable assistance for your PhD with ease and
+                                confidence.
                               </p>
                               <Link href="#">Rose W. Norwood</Link>
                               <div className="country">

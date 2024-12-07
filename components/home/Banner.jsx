@@ -6,7 +6,7 @@ import ban_frame_1 from "/public/img/ban-frame-1.png";
 import ban_frame_2 from "/public/img/ban-frame-2.png";
 import ban_frame_3 from "/public/img/ban-frame-3.png";
 import ban_frame_4 from "/public/img/ban-frame-4.png";
-import ban_right from "/public/img/ban-right.png";
+import ban_right from "/public/img/young-smiling-confident-woman.png";
 import video_icon from "/public/img/video-icon.png";
 
 const Banner = () => {
@@ -26,19 +26,26 @@ const Banner = () => {
       <section className="banner-section">
         <div className="banner-content d-flex align-items-center">
           <div className="container">
-            <div className="illu-item">
+            {/* <div className="illu-item">
               <Image className="item-1" src={ban_frame_1} alt="image" />
               <Image className="item-2" src={ban_frame_2} alt="image" />
               <Image className="item-3" src={ban_frame_3} alt="image" />
               <Image className="item-4" src={ban_frame_4} alt="image" />
-            </div>
+            </div> */}
             <div className="row justify-content-start">
               <div className="col-lg-7 col-md-10">
                 <div className="main-content">
                   <div className="top-area justify-content-center">
-                    <h1>Instantly pay the world</h1>
-                    <p className="xxlr">
-                      A simple and highly secure money transfer around the world
+                    <h1>PhD service</h1>
+                    <p
+                      className="xxlr"
+                      style={{ fontSize: "16px", lineHeight: "25px" }}
+                    >
+                      PhD is short for Doctor of Philosophy. This is an academic
+                      or professional degree that, in most countries,Qualifies
+                      the degree holder to teach their chosen Subject ar
+                      university level or to work in a specialized position in
+                      their chosen field.
                     </p>
                     <form action="#">
                       <div className="input-field d-flex">

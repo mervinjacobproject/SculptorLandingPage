@@ -17,12 +17,11 @@ const WhyChooseUs = () => {
             <div className="row d-flex justify-content-center">
               <div className="col-lg-9">
                 <div className="section-header text-center">
-                  <h2 className="title">
-                    Secure money transfers you can trust
-                  </h2>
+                  <h2 className="title">Comprehensive Services</h2>
                   <p>
-                    Send and receive money in minutes from people you know and
-                    trust
+                    Whether you’re at the proposal stage, conducting research,
+                    or preparing your thesis, we offer tailored support at every
+                    step. Our services include
                   </p>
                 </div>
               </div>

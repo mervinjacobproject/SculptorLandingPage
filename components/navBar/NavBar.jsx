@@ -5,6 +5,7 @@ import Select from "../common/Select";
 import { navData } from "./navData";
 import lang from "/public/img/lang.png";
 import logo from "/public/img/logo.png";
+// import logo from "/public/img/PHD_SCULPTOR.jpg";
 
 const langSelector = [
   { id: 1, name: "EN" },
@@ -86,19 +87,50 @@ const NavBar = () => {
                             {itm}
                           </Link>
                           {mega_menu ? (
-                            <div className="dropdown-menu show mega-menu">
+                            <div className="dropdown-menu mega-menu">
                               <ul className="dropdown">
-                                {dropdown_itms?.map(({ id, dp_itm, url }) => (
-                                  <li key={id}>
-                                    <Link
-                                      className="nav-item"
-                                      href={url}
-                                      onClick={hidenMenu}
-                                    >
-                                      {dp_itm}
-                                    </Link>
-                                  </li>
-                                ))}
+                                {dropdown_itms?.map(
+                                  ({ id, dp_itm, url, header }) => (
+                                    <>
+                                      {header ? (
+                                        <li key={id}>
+                                          <Link
+                                            style={{
+                                              color: "red",
+                                              padding: "10px 15px 0px 15px",
+                                              fontWeight: "600",
+                                              cursor: "none",
+                                              pointerEvents: "none",
+                                            }}
+                                            // className="nav-item"
+                                            href={url}
+                                          >
+                                            {dp_itm}
+                                          </Link>
+                                        </li>
+                                      ) : (
+                                        <li key={id}>
+                                          <Link
+                                            className="nav-item"
+                                            href={url}
+                                            onClick={hidenMenu}
+                                          >
+                                            {dp_itm}
+                                          </Link>
+                                        </li>
+                                      )}
+                                      {/* <li key={id}>
+                                      <Link
+                                        className="nav-item"
+                                        href={url}
+                                        onClick={hidenMenu}
+                                      >
+                                        {dp_itm}
+                                      </Link>
+                                    </li> */}
+                                    </>
+                                  )
+                                )}
                               </ul>
                             </div>
                           ) : (
